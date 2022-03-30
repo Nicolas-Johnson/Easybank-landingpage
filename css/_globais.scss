@@ -37,13 +37,13 @@ a {
   font-weight: bold;
   font-size: 1rem;
   border-radius: 25px;
-  //background: $cyan;
+  background-image: linear-gradient(to left, $bright-cyan, $lime-green);
   border: none;
   outline: none;
   padding: 0.7778rem 1.3889rem;
   cursor: pointer;
 
   &:hover {
-    opacity: 0.6;
+    opacity: 0.4;
   }
 }

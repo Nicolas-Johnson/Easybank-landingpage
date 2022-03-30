@@ -21,6 +21,9 @@ a {
 }
 
 header {
+  position: fixed;
+  background: white;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,6 +31,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  z-index: 5;
 }
 
 header .header-logo {
@@ -38,5 +42,85 @@ header .header-logo {
 
 header .header-navigation .header-navigation-desktop {
   display: none;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f3f4f6;
+}
+
+.hero .hero-call-to-action {
+  margin-top: 44px;
+}
+
+.hero .hero-call-to-action .hero-call-to-action_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+  background-image: url(../images/bg-intro-mobile.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.hero .hero-call-to-action .hero-call-to-action_img img {
+  position: relative;
+  height: 140%;
+  top: -120px;
+  z-index: 2;
+}
+
+.hero .hero-call-to-action .hero-call-to-action_infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #2d314d;
+}
+
+.hero .hero-call-to-action .hero-call-to-action_infos h1 {
+  font-weight: 400;
+  font-size: 2.2em;
+}
+
+.hero .hero-call-to-action .hero-call-to-action_infos p {
+  margin: 20px auto;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.hero .hero-call-to-action .hero-call-to-action_infos button {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#2bb7da), to(#31d35c));
+  background-image: linear-gradient(to left, #2bb7da, #31d35c);
+  border: none;
+  outline: none;
+  padding: 0.7778rem 1.3889rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.hero .hero-call-to-action .hero-call-to-action_infos button:hover {
+  opacity: 0.4;
 }
 /*# sourceMappingURL=main.css.map */
