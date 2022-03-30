@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+
+  .header-logo {
+    flex: 1;
+  }
+  .header-navigation {
+    .header-navigation-desktop {
+      display: none;
+    }
+    .header-navigation-mobile {
+    }
+  }
+
+}

@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  //scroll-behavior: smooth;
+}
+
+html {
+  font-size: $body-font-size;
+  //overflow-x: hidden;
+}
+  
+body {
+  //position: relative;
+  font-family: 'Public Sans', sans-serif;
+  font-size: $body-font-size;
+  //overflow-x: hidden;
+}
+  
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@mixin links {
+  margin-right: 2.1667rem;
+  //color: $grayish-violet;
+
+  &:hover {
+    color: black;
+    font-weight: bold;
+  }
+}
+
+@mixin btn {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 25px;
+  //background: $cyan;
+  border: none;
+  outline: none;
+  padding: 0.7778rem 1.3889rem;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

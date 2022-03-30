@@ -1,0 +1,20 @@
+//The designs were created to the following widths:
+//- Mobile: 375px
+//- Desktop: 1440px
+//##Colors
+//###Primary
+$cark-blue: hsl(233, 26%, 24%);
+$lime-green: hsl(136, 65%, 51%);
+$bright-cyan: hsl(192, 70%, 51%);
+//##Neutral
+$grayish-blue: hsl(233, 8%, 62%);
+$light-grayish-blue: hsl(220, 16%, 96%);
+$very-light-gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+//##Typography
+//###Body Copy
+$body-font-size: 18px;
+//###Font
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+//- Weights: 300, 400, 700
+//font-family: 'Public Sans', sans-serif;
