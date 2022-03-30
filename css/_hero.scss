@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   flex-direction: column;
-  background: $light-grayish-blue;
+  background: $very-light-gray;
   .hero-call-to-action {
     margin-top: 44px;
     .hero-call-to-action_img {
@@ -24,19 +24,12 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      color: $cark-blue;
-      h1 {
-        font-weight: 400;
-        font-size: 2.2em;
-      }
       p {
         margin: 20px auto;
-        font-size: .9em;
-        line-height: 1.5em;
       }
       button {
         @include btn;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
       }
     }
   }
