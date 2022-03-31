@@ -21,3 +21,29 @@
     }
   }
 }
+
+@media screen and (min-width: 765px) {
+  #why-features {
+    padding: 50px 80px;
+    .why-features-why {
+      text-align: left;
+      padding: 0 0 0 80px;
+      margin: 50px 100px 20px 0;
+      width: 100%;
+      p {
+        padding: 0 50% 0 0;
+      }
+    }
+    .why-features-features {
+      display: flex;
+      flex-direction: row;
+      .why-features-fetures_feature {
+        margin: 0 10px;
+        text-align: left;
+        p {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

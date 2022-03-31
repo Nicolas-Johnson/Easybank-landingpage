@@ -13,6 +13,12 @@ header {
   .header-navigation {
     .header-navigation-desktop {
       display: none;
+      a {
+        margin: 0 10px;
+      }
+      button {
+        @include btn;
+      }
     }
   }
   .header-nav-modal {
@@ -30,5 +36,20 @@ header {
     box-shadow: 0 140px 10000px $dark-blue;
     padding: 20px 0;
     display: none;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  header {
+    padding: 10px 70px;
+    .header-navigation {
+      .header-navigation-desktop {
+        display: flex;
+        align-items: center;
+      }
+      .header-navigation-mobile {
+        display: none;
+      }
+    }
   }
 }
