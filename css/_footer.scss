@@ -45,3 +45,36 @@ footer {
     }
   }
 }
+
+@media screen and (min-width: 765px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    justify-content: space-between;
+    .footer-logo-social {
+      flex: 1;
+    }
+    .footer-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex: 2;
+      width: 50%;
+      .footer-nav-3 {
+        margin: 20px 20px 20px 0;
+        text-align: left;
+        justify-content: flex-start;
+        padding-left: 0;
+        a {
+          margin-left: 0;
+        }
+      }
+    }
+    .footer-cta {
+      button {
+        margin-top: 20px;
+      }
+    }
+  }
+}

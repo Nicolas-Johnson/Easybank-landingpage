@@ -3,11 +3,17 @@
   padding: 0;
   margin: 0;
 }
+
+html {
+  overflow-x: hidden;
+}
   
-body {
+body {  
+  position: relative;
   font-family: 'Public Sans', sans-serif;
   font-size: $body-font-size;
   color: $dark-blue;
+  overflow-x: hidden;
 }
 .hide-side-bar {
   overflow: hidden;
