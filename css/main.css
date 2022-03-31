@@ -54,9 +54,6 @@ p {
 }
 
 header {
-  position: fixed;
-  background: white;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +61,6 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 5;
 }
 
 header .header-logo {
