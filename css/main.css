@@ -15,6 +15,7 @@ body {
 a {
   text-decoration: none;
   color: unset;
+  cursor: pointer;
 }
 
 h1 {
@@ -258,5 +259,88 @@ header .header-navigation .header-navigation-desktop {
   line-height: 1.2em;
   font-size: .8em;
   color: #9698a6;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: #2d314d;
+  color: white;
+}
+
+footer .footer-logo img {
+  width: 150px;
+  height: 35px;
+  margin: 30px auto;
+}
+
+footer .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  margin: 0 auto 20px;
+}
+
+footer .footer-social a img {
+  width: 25px;
+  height: 25px;
+}
+
+footer .footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-nav .footer-nav-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-nav .footer-nav-3 a {
+  margin: 10px auto;
+}
+
+footer .footer-cta button {
+  margin: 20px auto;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#2bb7da), to(#31d35c));
+  background-image: linear-gradient(to left, #2bb7da, #31d35c);
+  border: none;
+  outline: none;
+  padding: 0.7778rem 1.3889rem;
+  cursor: pointer;
+}
+
+footer .footer-cta button:hover {
+  opacity: 0.4;
+}
+
+footer .footer-cta p {
+  margin: 20px auto 50px;
 }
 /*# sourceMappingURL=main.css.map */
