@@ -340,7 +340,7 @@ header .header-nav-modal {
   background: #fafafa;
 }
 
-#articles .articles_article {
+#articles .articles-articles-article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,7 +357,7 @@ header .header-nav-modal {
   border-radius: .5em;
 }
 
-#articles .articles_article .image_currency {
+#articles .articles-articles-article .image_currency {
   background-image: url(../images/image-currency.jpg);
   width: 100%;
   height: 200px;
@@ -368,7 +368,7 @@ header .header-nav-modal {
   border-top-right-radius: .5em;
 }
 
-#articles .articles_article .image_restaurant {
+#articles .articles-articles-article .image_restaurant {
   background-image: url(../images/image-restaurant.jpg);
   width: 100%;
   height: 200px;
@@ -379,7 +379,7 @@ header .header-nav-modal {
   border-top-right-radius: .5em;
 }
 
-#articles .articles_article .image_plane {
+#articles .articles-articles-article .image_plane {
   background-image: url(../images/image-plane.jpg);
   width: 100%;
   height: 200px;
@@ -390,7 +390,7 @@ header .header-nav-modal {
   border-top-right-radius: .5em;
 }
 
-#articles .articles_article .image_confetti {
+#articles .articles-articles-article .image_confetti {
   background-image: url(../images/image-confetti.jpg);
   width: 100%;
   height: 200px;
@@ -401,18 +401,43 @@ header .header-nav-modal {
   border-top-right-radius: .5em;
 }
 
-#articles .articles_article .articles-article-text {
+#articles .articles-articles-article .articles-article-text {
   width: 90%;
   text-align: left;
   color: #2d314d;
   padding-bottom: 30px;
 }
 
-#articles .articles_article .articles-article-text p {
+#articles .articles-articles-article .articles-article-text p {
   padding: 0;
   line-height: 1.2em;
   font-size: .8em;
   color: #9698a6;
+}
+
+@media screen and (min-width: 765px) {
+  #articles {
+    text-align: left;
+    padding: 70px 30px;
+  }
+  #articles h2 {
+    width: 90%;
+    margin: 20px auto;
+  }
+  #articles .articles-articles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90%;
+    margin: 20px auto;
+  }
+  #articles .articles-articles .articles-articles-article {
+    margin: 0 10px;
+  }
 }
 
 footer {

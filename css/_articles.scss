@@ -4,7 +4,7 @@
   text-align: center;
   padding: 70px 0;
   background: $very-light-gray;
-  .articles_article {
+  .articles-articles-article {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,6 +39,26 @@
         font-size: .8em;
         color: $grayish-blue;
       } 
+    }
+  }
+}
+
+@media screen and (min-width: 765px) {
+  #articles {
+    text-align: left;
+    h2 {
+      width: 90%;
+      margin: 20px auto;
+    }
+    padding: 70px 30px;
+    .articles-articles {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      margin: 20px auto;
+      .articles-articles-article {
+        margin: 0 10px;
+      }
     }
   }
 }
