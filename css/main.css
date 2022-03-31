@@ -33,9 +33,22 @@ h3 {
   margin: 20px auto;
 }
 
+h4 {
+  font-weight: 700;
+  font-size: .85em;
+  margin: 10px auto;
+}
+
+h5 {
+  margin: 20px auto 10px;
+  font-weight: 300;
+  font-size: .6em;
+}
+
 p {
   font-size: .9em;
   line-height: 1.5em;
+  font-weight: 300;
   padding: 0 10px;
 }
 
@@ -157,5 +170,93 @@ header .header-navigation .header-navigation-desktop {
 
 .why-features .why-features-features .why-features-fetures_feature img {
   margin-top: 30px;
+}
+
+.articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 70px 0;
+  background: #fafafa;
+}
+
+.articles .articles_article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: white;
+  margin: 10px auto;
+  border-radius: .5em;
+}
+
+.articles .articles_article .image_currency {
+  background-image: url(../images/image-currency.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.articles .articles_article .image_restaurant {
+  background-image: url(../images/image-restaurant.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.articles .articles_article .image_plane {
+  background-image: url(../images/image-plane.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.articles .articles_article .image_confetti {
+  background-image: url(../images/image-confetti.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.articles .articles_article .articles-article-text {
+  width: 90%;
+  text-align: left;
+  color: #2d314d;
+  padding-bottom: 30px;
+}
+
+.articles .articles_article .articles-article-text p {
+  padding: 0;
+  line-height: 1.2em;
+  font-size: .8em;
+  color: #9698a6;
 }
 /*# sourceMappingURL=main.css.map */

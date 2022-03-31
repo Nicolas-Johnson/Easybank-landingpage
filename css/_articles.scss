@@ -1,0 +1,44 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 70px 0;
+  background: $very-light-gray;
+  .articles_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background: $white;
+    margin: 10px auto;
+    border-radius: .5em;
+    .image_currency {
+      background-image: url(../images/image-currency.jpg);
+      @include image;
+    }
+    .image_restaurant {
+      background-image: url(../images/image-restaurant.jpg);
+      @include image;
+    }
+    .image_plane {
+      background-image: url(../images/image-plane.jpg);
+      @include image;
+    }
+    .image_confetti {
+      background-image: url(../images/image-confetti.jpg);
+      @include image;
+    }
+    .articles-article-text {
+      width: 90%;
+      text-align: left;
+      color: $dark-blue;
+      padding-bottom: 30px;
+      p{
+        padding: 0;
+        line-height: 1.2em;
+        font-size: .8em;
+        color: $grayish-blue;
+      } 
+    }
+  }
+}
