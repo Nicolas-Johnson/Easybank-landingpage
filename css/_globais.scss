@@ -9,6 +9,9 @@ body {
   font-size: $body-font-size;
   color: $dark-blue;
 }
+.hide-side-bar {
+  overflow: hidden;
+}
   
 a {
   text-decoration: none;

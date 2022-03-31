@@ -12,6 +12,10 @@ body {
   color: #2d314d;
 }
 
+.hide-side-bar {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
   color: unset;
@@ -77,6 +81,32 @@ header .header-logo {
 }
 
 header .header-navigation .header-navigation-desktop {
+  display: none;
+}
+
+header .header-nav-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 90%;
+  background: white;
+  height: 280px;
+  top: 60px;
+  left: 5%;
+  border-radius: .5em;
+  -webkit-box-shadow: 0 140px 10000px #2d314d;
+          box-shadow: 0 140px 10000px #2d314d;
+  padding: 20px 0;
   display: none;
 }
 
