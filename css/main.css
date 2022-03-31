@@ -58,9 +58,13 @@ header {
   display: -ms-flexbox;
   display: flex;
   padding: 10px 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  background: white;
 }
 
 header .header-logo {

@@ -1,8 +1,11 @@
 header {
   display: flex;
   padding: 10px 20px;
-  justify-content: center;
-
+  justify-content: space-evenly;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  background: white;
   .header-logo {
     flex: 1;
   }
