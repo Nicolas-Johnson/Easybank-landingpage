@@ -296,6 +296,34 @@ header .header-nav-modal {
   margin-top: 30px;
 }
 
+@media screen and (min-width: 765px) {
+  #why-features {
+    padding: 0 80px;
+  }
+  #why-features .why-features-why {
+    text-align: left;
+  }
+  #why-features .why-features-why p {
+    padding: 0 230px 0 0;
+  }
+  #why-features .why-features-features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #why-features .why-features-features .why-features-fetures_feature {
+    margin: 0 10px;
+    text-align: left;
+  }
+  #why-features .why-features-features .why-features-fetures_feature p {
+    padding: 0;
+  }
+}
+
 #articles {
   display: -webkit-box;
   display: -ms-flexbox;
