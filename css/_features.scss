@@ -24,11 +24,14 @@
 
 @media screen and (min-width: 765px) {
   #why-features {
-    padding: 0 80px;
+    padding: 50px 80px;
     .why-features-why {
       text-align: left;
+      padding: 0 0 0 80px;
+      margin: 50px 100px 20px 0;
+      width: 100%;
       p {
-        padding: 0 230px 0 0;
+        padding: 0 50% 0 0;
       }
     }
     .why-features-features {
