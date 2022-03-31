@@ -76,7 +76,7 @@ header .header-navigation .header-navigation-desktop {
   display: none;
 }
 
-.hero {
+#hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,11 +87,11 @@ header .header-navigation .header-navigation-desktop {
   background: #fafafa;
 }
 
-.hero .hero-call-to-action {
+#hero .hero-call-to-action {
   margin-top: 44px;
 }
 
-.hero .hero-call-to-action .hero-call-to-action_img {
+#hero .hero-call-to-action .hero-call-to-action_img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,14 +105,14 @@ header .header-navigation .header-navigation-desktop {
   z-index: 0;
 }
 
-.hero .hero-call-to-action .hero-call-to-action_img img {
+#hero .hero-call-to-action .hero-call-to-action_img img {
   position: relative;
   height: 140%;
   top: -120px;
   z-index: 2;
 }
 
-.hero .hero-call-to-action .hero-call-to-action_infos {
+#hero .hero-call-to-action .hero-call-to-action_infos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,11 +126,11 @@ header .header-navigation .header-navigation-desktop {
   text-align: center;
 }
 
-.hero .hero-call-to-action .hero-call-to-action_infos p {
+#hero .hero-call-to-action .hero-call-to-action_infos p {
   margin: 20px auto;
 }
 
-.hero .hero-call-to-action .hero-call-to-action_infos button {
+#hero .hero-call-to-action .hero-call-to-action_infos button {
   color: #fff;
   font-weight: bold;
   font-size: 1rem;
@@ -144,11 +144,11 @@ header .header-navigation .header-navigation-desktop {
   margin-bottom: 50px;
 }
 
-.hero .hero-call-to-action .hero-call-to-action_infos button:hover {
+#hero .hero-call-to-action .hero-call-to-action_infos button:hover {
   opacity: 0.4;
 }
 
-.why-features {
+#why-features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,15 +164,15 @@ header .header-navigation .header-navigation-desktop {
   padding-bottom: 50px;
 }
 
-.why-features .why-features-why {
+#why-features .why-features-why {
   padding: 50px 20px 20px 20px;
 }
 
-.why-features .why-features-features .why-features-fetures_feature img {
+#why-features .why-features-features .why-features-fetures_feature img {
   margin-top: 30px;
 }
 
-.articles {
+#articles {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,7 +185,7 @@ header .header-navigation .header-navigation-desktop {
   background: #fafafa;
 }
 
-.articles .articles_article {
+#articles .articles_article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -202,7 +202,7 @@ header .header-navigation .header-navigation-desktop {
   border-radius: .5em;
 }
 
-.articles .articles_article .image_currency {
+#articles .articles_article .image_currency {
   background-image: url(../images/image-currency.jpg);
   width: 100%;
   height: 200px;
@@ -213,7 +213,7 @@ header .header-navigation .header-navigation-desktop {
   border-top-right-radius: .5em;
 }
 
-.articles .articles_article .image_restaurant {
+#articles .articles_article .image_restaurant {
   background-image: url(../images/image-restaurant.jpg);
   width: 100%;
   height: 200px;
@@ -224,7 +224,7 @@ header .header-navigation .header-navigation-desktop {
   border-top-right-radius: .5em;
 }
 
-.articles .articles_article .image_plane {
+#articles .articles_article .image_plane {
   background-image: url(../images/image-plane.jpg);
   width: 100%;
   height: 200px;
@@ -235,7 +235,7 @@ header .header-navigation .header-navigation-desktop {
   border-top-right-radius: .5em;
 }
 
-.articles .articles_article .image_confetti {
+#articles .articles_article .image_confetti {
   background-image: url(../images/image-confetti.jpg);
   width: 100%;
   height: 200px;
@@ -246,14 +246,14 @@ header .header-navigation .header-navigation-desktop {
   border-top-right-radius: .5em;
 }
 
-.articles .articles_article .articles-article-text {
+#articles .articles_article .articles-article-text {
   width: 90%;
   text-align: left;
   color: #2d314d;
   padding-bottom: 30px;
 }
 
-.articles .articles_article .articles-article-text p {
+#articles .articles_article .articles-article-text p {
   padding: 0;
   line-height: 1.2em;
   font-size: .8em;
